@@ -1,0 +1,6 @@
+n = str(input('Qual o seu nome Completo? ')).strip()
+print(n.upper())
+print(n.lower())
+print(len(n)-n.count(' '))
+n = n.split()
+print(len(n[0]))
